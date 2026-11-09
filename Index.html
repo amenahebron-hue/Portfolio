@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sancreek&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#home" class="logo">
+            <span class="logo-icon">HD</span>
+            <span>
+                <strong> Hebron <em>Designs</em></strong>
+                <small>WEBSITES . DEVELOPMENT . DIGITAL SOLUTIONS</small>
+            </span>
+        </a>
+        <button class="menu-toggle" onclick="showMenu()" aria-label="Toggle navigation"
+            aria-expanded="false">&#9776;</button>
+        <nav id="navBar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <nav class="menuBar">
+            <button onclick="hideMenu()"><i class="fa-solid fa-x"></i></button>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="hero" id="greet">
+        <div class="hero-text">
+            <p class="hello">HELLO, I'M</p>
+            <h1>HEBRON <span>AMENA</span></h1>
+            <h2>Web Developer &amp; Designer</h2>
+            <p class="paragraph">
+                I build clean, mordern and responsive websites
+                that help individuals, businesses and organisationns
+                grow online. I create digital solutions that are simple,
+                fast and user-friendly.
+            </p>
+            <a href="#projects" class="projects">
+                View My Projects <i class="fa-solid fa-arrow-right-long"></i>
+            </a>
+        </div>
+        <div class="hero-image">
+            <img src="images/profile.jpeg" alt="picture of the portfolio owner">
+            <p class="writings">Code<br>Design<br>
+                Create<br>Impact</p>
+        </div>
+    </section>
+    <section class="skill-section" id="skills">
+        <div class="skill-intro">
+            <h2>My Skills</h2>
+            <p>I'm continuously learning and improving my skills
+                to build better and more powerful web solutions.
+            </p>
+        </div>
+        <marquee scrollamount="5">
+            <div class="skills_container">
+
+                <div class="skill">
+                    <i class="fa-brands fa-html5"></i>
+                    <div>
+                        <h3>HTML</h3>
+                        <p>Structure</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <div>
+                        <h3>CSS</h3>
+                        <p>Styling</p>
+                    </div>
+                -</div>
+                <div class="skill">
+                    <i class="fa-brands fa-php"></i>
+                    <div>
+                        <h3>PHP</h3>
+                        <p>Backend</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <i class="fa-brands fa-node-js"></i>
+                    <div>
+                        <h3>JavaScript</h3>
+                        <p>Interactions</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <i class="fa-brands fa-git-alt"></i>
+                    <div>
+                        <h3>Git</h3>
+                        <p>Version control</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <i class="fa-brands fa-github"></i>
+                    <div>
+                        <h3>GitHub</h3>
+                        <p>Code Hosting</p>
+                    </div>
+                </div>
+
+            </div>
+        </marquee>
+    </section>
+    <section class="Projects-section" id="projects">
+        <div class="section-heading">
+            <h2>My Projects</h2>
+            <span>(Practice &amp;Client Projectss)</span>
+            <p>Real ideas. Mordern websites. real impact.</p>
+        </div>
+    </section>
+    <footer id="contact">
+        <div class="footer">
+            <h2>Let's Build<br>Something Great</h2>
+        </div>
+        <div class="footer-contact">
+            <h3>Get In Touch</h3>
+            <p>+254795019403</p>
+            <p>amenahebron@gmail.com</p>
+        </div>
+        <div class="footer-note">
+            <p>Turning your ideas into mordern digital solutions</p>
+            <h3>Hebron Designs</h3>
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Hebron Designs.All rights reserved.
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
